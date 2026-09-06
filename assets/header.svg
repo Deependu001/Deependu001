@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 350" width="100%" height="100%" fill="none">
+  <defs>
+    <style>
+      @keyframes blinkCursor {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+
+      @keyframes whoamiType {
+        0%, 4% { opacity: 0; }
+        8%, 94% { opacity: 1; }
+        98%, 100% { opacity: 0; }
+      }
+
+      @keyframes ansType {
+        0%, 12% { opacity: 0; }
+        16%, 94% { opacity: 1; }
+        98%, 100% { opacity: 0; }
+      }
+
+      @keyframes heroEntrance {
+        0%, 22% { opacity: 0; }
+        28%, 94% { opacity: 1; }
+        98%, 100% { opacity: 0; }
+      }
+
+      @keyframes roleEntrance {
+        0%, 34% { opacity: 0; }
+        40%, 94% { opacity: 1; }
+        98%, 100% { opacity: 0; }
+      }
+
+      @keyframes focusType {
+        0%, 48% { opacity: 0; }
+        54%, 94% { opacity: 1; }
+        98%, 100% { opacity: 0; }
+      }
+
+      @keyframes treeFlash {
+        0%, 64% { opacity: 0; }
+        68%, 82% { opacity: 1; }
+        86%, 100% { opacity: 0; }
+      }
+
+      @keyframes finalCmdType {
+        0%, 86% { opacity: 0; }
+        90%, 98% { opacity: 1; }
+        100% { opacity: 0; }
+      }
+
+      .mono {
+        font-family: 'SF Mono', 'JetBrains Mono', 'Cascadia Mono', 'Fira Code', 'Menlo', monospace;
+      }
+      .sans {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', 'Roboto', sans-serif;
+      }
+
+      .scene-whoami { animation: whoamiType 14s ease-in-out infinite; }
+      .scene-ans { animation: ansType 14s ease-in-out infinite; }
+      .scene-hero { animation: heroEntrance 14s ease-in-out infinite; }
+      .scene-role { animation: roleEntrance 14s ease-in-out infinite; }
+      .scene-focus { animation: focusType 14s ease-in-out infinite; }
+      .scene-tree { animation: treeFlash 14s ease-in-out infinite; }
+      .scene-final { animation: finalCmdType 14s ease-in-out infinite; }
+      .cursor { animation: blinkCursor 0.9s infinite; }
+    </style>
+  </defs>
+
+  <!-- PURE WHITE BACKGROUND -->
+  <rect width="960" height="350" fill="#FFFFFF" />
+
+  <!-- SCENE 2: $ whoami -->
+  <g transform="translate(70, 36)" class="scene-whoami">
+    <text x="0" y="0" class="mono" font-size="13" font-weight="600" fill="#059669">$ <tspan fill="#1F2937">whoami</tspan></text>
+  </g>
+
+  <!-- SCENE 3: deependu -->
+  <g transform="translate(70, 56)" class="scene-ans">
+    <text x="0" y="0" class="mono" font-size="13" font-weight="500" fill="#64748B">deependu</text>
+  </g>
+
+  <!-- SCENE 4: Hi, I'm / DEEPENDU MONDAL -->
+  <g transform="translate(70, 92)" class="scene-hero">
+    <text x="0" y="0" class="mono" font-size="13" font-weight="500" fill="#64748B">Hi, I&apos;m</text>
+    <text x="0" y="34" class="sans" font-size="34" font-weight="800" fill="#0F172A" letter-spacing="-0.5">DEEPENDU MONDAL</text>
+  </g>
+
+  <!-- SCENE 5 & 6: Role & Focus Specializations -->
+  <g transform="translate(70, 154)" class="scene-role">
+    <text x="0" y="0" class="mono" font-size="12.5" font-weight="700" fill="#059669">CYBERSECURITY ENGINEER</text>
+    <text x="0" y="19" class="mono" font-size="11.5" font-weight="500" fill="#64748B">OFFENSIVE SECURITY &#183; APPSEC &#183; SECURITY ENGINEERING</text>
+  </g>
+
+  <!-- SCENE 7: $ ./current_focus -->
+  <g transform="translate(70, 204)" class="scene-focus">
+    <text x="0" y="0" class="mono" font-size="13" font-weight="600" fill="#059669">$ <tspan fill="#1F2937">./current_focus</tspan></text>
+    <text x="0" y="21" class="mono" font-size="11" font-weight="700" fill="#10B981">[+] <tspan font-weight="500" fill="#64748B">security tooling</tspan></text>
+    <text x="0" y="38" class="mono" font-size="11" font-weight="700" fill="#10B981">[+] <tspan font-weight="500" fill="#64748B">web &amp; API security</tspan></text>
+    <text x="0" y="55" class="mono" font-size="11" font-weight="700" fill="#10B981">[+] <tspan font-weight="500" fill="#64748B">offensive security</tspan></text>
+  </g>
+
+  <!-- SCENE 8: The Visual Hacker Detail (Attack Surface Tree) -->
+  <g transform="translate(480, 204)" class="scene-tree">
+    <circle cx="-8" cy="4" r="2.5" fill="#10B981" />
+    <text x="0" y="0" class="mono" font-size="11" font-weight="700" fill="#0F172A">target</text>
+    <text x="0" y="18" class="mono" font-size="11" font-weight="500" fill="#64748B"> &#x251C;&#x2500;&#x2500; /api</text>
+    <text x="0" y="36" class="mono" font-size="11" font-weight="500" fill="#64748B"> &#x251C;&#x2500;&#x2500; /auth</text>
+    <text x="0" y="54" class="mono" font-size="11" font-weight="500" fill="#64748B"> &#x2514;&#x2500;&#x2500; /admin</text>
+  </g>
+
+  <!-- SCENE 9: $ ./build_security_tools.sh -->
+  <g transform="translate(70, 290)" class="scene-final">
+    <text x="0" y="0" class="mono" font-size="13" font-weight="600" fill="#059669">$ <tspan fill="#1F2937">./build_security_tools.sh</tspan></text>
+    <text x="0" y="21" class="mono" font-size="11" font-weight="700" fill="#10B981">[+] <tspan font-weight="500" fill="#64748B">ready</tspan><tspan fill="#059669" class="cursor">_</tspan></text>
+  </g>
+</svg>
