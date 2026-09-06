@@ -93,9 +93,9 @@ Reconnaissance ➔ Attack Surface Discovery ➔ Vulnerability Discovery ➔ Expl
 │ APPLICATION SECURITY    OWASP Top 10 · OWASP API Top 10 · BOLA/IDOR · CSRF · Input Fuzzing│
 │ OFFENSIVE SECURITY      Reconnaissance · Nmap · Burp Suite · Metasploit · Exploit Modeling│
 │ PROTOCOLS & NETWORK     TCP/IP · Wireshark · tcpdump · Raw Sockets · DNS/HTTP Internals   │
-│ SYSTEMS & RUNTIMES      Linux Internals (Debian/Arch) · POSIX Shell · C/C++ · Manifest V3  │
+│ SYSTEMS & RUNTIMES      Linux Internals (Debian/Arch) · POSIX Shell · C/C++ · Manifest V3 │
 │ BACKEND & TOOLING       Python · FastAPI · AsyncIO · SQLite · PostgreSQL · Docker · Git   │
-│ VERIFICATION & TESTING  pytest · Automated Synthetic Harnesses · SARIF · Structured JSON │
+│ VERIFICATION & TESTING  pytest · Automated Synthetic Harnesses · SARIF · Structured JSON  │
 └───────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
