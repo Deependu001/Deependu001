@@ -1,23 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 52" width="460" height="52" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 50" width="490" height="50" fill="none">
   <defs>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&amp;family=Nunito:wght@800&amp;family=Quicksand:wght@700&amp;display=swap');
 
-      @keyframes waveHand {
-        0%, 100% { transform: rotate(0deg); }
-        15%, 55% { transform: rotate(18deg); }
-        35%, 75% { transform: rotate(-10deg); }
+      @keyframes heyWave {
+        0% { transform: rotate(0deg); }
+        10% { transform: rotate(16deg); }
+        20% { transform: rotate(-8deg); }
+        30% { transform: rotate(16deg); }
+        40% { transform: rotate(-4deg); }
+        50% { transform: rotate(12deg); }
+        60% { transform: rotate(0deg); }
+        100% { transform: rotate(0deg); }
       }
 
       @keyframes typeReveal {
         0%, 10% { width: 0px; }
-        45%, 90% { width: 385px; }
+        45%, 90% { width: 425px; }
         98%, 100% { width: 0px; }
       }
 
       @keyframes cursorWalk {
         0%, 10% { transform: translateX(0px); }
-        45%, 90% { transform: translateX(380px); }
+        45%, 90% { transform: translateX(418px); }
         98%, 100% { transform: translateX(0px); }
       }
 
@@ -26,22 +31,37 @@
         50%, 100% { opacity: 0; }
       }
 
-      .hand-container {
+      .hand-hey-wrap {
         display: inline-block;
-        transform-origin: 22px 38px;
-        animation: waveHand 2.2s ease-in-out infinite;
+        transform-origin: 22px 34px;
+        animation: heyWave 2.4s ease-in-out infinite;
       }
 
-      .rounded-yellow-text {
+      .rounded-font {
         font-family: 'Comfortaa', 'Nunito', 'Quicksand', 'Arial Rounded MT Bold', ui-rounded, 'Segoe UI Rounded', system-ui, -apple-system, sans-serif;
-        font-size: 30px;
+        font-size: 29px;
         font-weight: 800;
         letter-spacing: -0.2px;
-        fill: #FACC15;
-        stroke: #FACC15;
-        stroke-width: 0.8px;
+      }
+
+      .text-hi {
+        fill: #000000;
+        filter: drop-shadow(0 0 1px rgba(255, 255, 255, 0.4));
+      }
+
+      .text-name {
+        fill: #F87171;
+        stroke: #F87171;
+        stroke-width: 0.5px;
         stroke-linejoin: round;
         paint-order: stroke fill;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        .text-hi {
+          fill: #F0F6FC;
+          filter: none;
+        }
       }
 
       .typed-clip-rect {
@@ -54,22 +74,36 @@
     </style>
 
     <clipPath id="type-clip">
-      <rect x="50" y="0" width="0" height="52" class="typed-clip-rect" />
+      <rect x="48" y="0" width="0" height="50" class="typed-clip-rect" />
     </clipPath>
   </defs>
 
-  <!-- Animated Waving Hand Emoji -->
-  <g class="hand-container">
-    <text x="6" y="38" font-size="32" font-family="'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif">👋</text>
+  <!-- Animated Vector Waving Hand ("Hey" Style Wave Animation) -->
+  <g class="hand-hey-wrap">
+    <g transform="translate(4, 7) scale(0.95)">
+      <!-- Hand Base Shadow -->
+      <path fill="#EF9645" d="M4.861 9.147c.94-.657 2.357-.531 3.201.166l-.968-1.407c-.779-1.111-.5-2.313.612-3.093 1.112-.777 4.263 1.312 4.263 1.312-.786-1.122-.639-2.544.483-3.331 1.122-.784 2.67-.513 3.456.611l10.42 14.72L25 31l-11.083-4.042L4.25 12.625c-.793-1.129-.519-2.686.611-3.478z"/>
+      <!-- Golden Waving Palm & Fingers -->
+      <path fill="#FFDC5D" d="M2.695 17.336s-1.132-1.65.519-2.781c1.649-1.131 2.78.518 2.78.518l5.251 7.658c.181-.302.379-.6.6-.894L4.557 11.21s-1.131-1.649.519-2.78c1.649-1.131 2.78.518 2.78.518l6.855 9.997c.255-.208.516-.417.785-.622L7.549 6.732s-1.131-1.649.519-2.78c1.649-1.131 2.78.518 2.78.518l7.947 11.589c.292-.179.581-.334.871-.498L12.238 4.729s-1.131-1.649.518-2.78c1.649-1.131 2.78.518 2.78.518l7.854 11.454 1.194 1.742c-4.948 3.394-5.419 9.779-2.592 13.902.565.825 1.39.26 1.39.26-3.393-4.949-2.357-10.51 2.592-13.903L24.515 8.62s-.545-1.924 1.378-2.47c1.924-.545 2.47 1.379 2.47 1.379l1.685 5.004c.668 1.984 1.379 3.961 2.32 5.831 2.657 5.28 1.07 11.842-3.94 15.279-5.465 3.747-12.936 2.354-16.684-3.11L2.695 17.336z"/>
+      <!-- Blue Motion Wave Accent Lines -->
+      <g fill="#5DADEC">
+        <path d="M12 32.042C8 32.042 3.958 28 3.958 24c0-.553-.405-1-.958-1s-1.042.447-1.042 1C1.958 30 6 34.042 12 34.042c.553 0 1-.489 1-1.042s-.447-.958-1-.958z"/>
+        <path d="M7 34c-3 0-5-2-5-5 0-.553-.447-1-1-1s-1 .447-1 1c0 4 3 7 7 7 .553 0 1-.447 1-1s-.447-1-1-1zM24 2c-.552 0-1 .448-1 1s.448 1 1 1c4 0 8 3.589 8 8 0 .552.448 1 1 1s1-.448 1-1c0-5.514-4-10-10-10z"/>
+        <path d="M29 .042c-.552 0-1 .406-1 .958s.448 1.042 1 1.042c3 0 4.958 2.225 4.958 4.958 0 .552.489 1 1.042 1s.958-.448.958-1C35.958 3.163 33 .042 29 .042z"/>
+      </g>
+    </g>
   </g>
 
-  <!-- Clipped Animated Rounded Bold Yellow Text -->
+  <!-- Clipped Animated Text: "Hi I am" in Black + "Deependu Mondal" in Light Red -->
   <g clip-path="url(#type-clip)">
-    <text x="50" y="38" class="rounded-yellow-text">Hi I am Deependu Mondal</text>
+    <text x="48" y="35" class="rounded-font">
+      <tspan class="text-hi">Hi I am </tspan>
+      <tspan class="text-name">Deependu Mondal</tspan>
+    </text>
   </g>
 
-  <!-- Animated Blinking Yellow Cursor Bar -->
+  <!-- Animated Blinking Light Red Cursor Bar -->
   <g class="cursor-bar">
-    <rect x="50" y="11" width="3.5" height="28" fill="#FACC15" rx="1.5" />
+    <rect x="48" y="11" width="3.5" height="27" fill="#F87171" rx="1.5" />
   </g>
 </svg>
