@@ -6,7 +6,9 @@
 
 </div>
 
-# 👋 Hi, I'm Deependu Mondal
+<h1 align="left">
+  <img src="./assets/greeting.svg" alt="Hi, I'm Deependu Mondal" height="42" />
+</h1>
 
 Cybersecurity enthusiast focused on **Offensive Security**, **Application Security**, **Security Research**, and **Security Tooling**.
 
@@ -103,25 +105,19 @@ I enjoy understanding how software and infrastructure fail, building tools aroun
 
 ## 🚀 FEATURED WORK
 
-* **[ThreatIntel-Engine](https://github.com/Deependu001/threatintel-engine)**  
-  Autonomous threat intelligence and IOC classification engine featuring asynchronous feed ingestion, heuristic scoring, and REST telemetry export.  
-  `Python` · `AsyncIO` · `FastAPI` · `SQLite/PostgreSQL`
-
-* **[APISentry](https://github.com/Deependu001/apisentry)**  
-  Automated OWASP API and web vulnerability auditor with OpenAPI/Swagger specification parsing and deterministic BOLA/IDOR probing.  
-  `Python` · `CLI` · `OWASP API Top 10` · `SARIF`
-
 * **[PhishingGuard](https://github.com/Deependu001/PhishingGuard)**  
   Client-side runtime phishing detection and input isolation engine operating locally in the browser sandbox without third-party telemetry egress.  
   `JavaScript` · `Manifest V3` · `Shadow DOM` · `Heuristic Engine`
 
 ---
 
-## 🔬 RESEARCH & WRITEUPS
+## 📈 GITHUB CONTRIBUTIONS
 
-* 🎯 **[TryHackMe Labs](https://tryhackme.com/p/Deependu001)** — Hands-on exploitation labs focusing on Linux privilege escalation, network auditing, and misconfiguration analysis.
-* 📝 **[DOM Sandbox Security & Manifest V3](https://medium.com/@deependumondal001)** — Research writeup dissecting how deceptive overlays manipulate Shadow DOM isolation boundaries.
-* 📝 **[Adversarial Invariants in Heuristic Filters](https://medium.com/@deependumondal001)** — Exploration of high-entropy character permutations inducing classification bypasses.
+<p align="center">
+  <a href="https://github.com/Deependu001">
+    <img src="https://ghchart.rshah.org/388bfd/Deependu001" alt="Deependu's GitHub Contribution Chart" width="100%" />
+  </a>
+</p>
 
 ---
 

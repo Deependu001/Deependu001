@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 48" width="100%" height="48" fill="none">
+  <defs>
+    <style>
+      @keyframes wave {
+        0%, 100% { transform: rotate(0deg); }
+        20%, 60% { transform: rotate(14deg); }
+        40%, 80% { transform: rotate(-10deg); }
+      }
+
+      @keyframes typeReveal {
+        0%, 10% { width: 0px; }
+        40%, 90% { width: 345px; }
+        98%, 100% { width: 0px; }
+      }
+
+      @keyframes cursorWalk {
+        0%, 10% { transform: translateX(0px); }
+        40%, 90% { transform: translateX(340px); }
+        98%, 100% { transform: translateX(0px); }
+      }
+
+      @keyframes blinkCursor {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+
+      .hand {
+        display: inline-block;
+        transform-origin: 20px 28px;
+        animation: wave 2.4s infinite;
+      }
+
+      .text-base {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', 'Roboto', sans-serif;
+        font-size: 25px;
+        font-weight: 700;
+        letter-spacing: -0.2px;
+      }
+
+      .typed-clip-rect {
+        animation: typeReveal 7.5s steps(26, end) infinite;
+      }
+
+      .cursor-bar {
+        animation: cursorWalk 7.5s steps(26, end) infinite, blinkCursor 0.75s infinite;
+      }
+
+      .text-main {
+        fill: #F0F6FC;
+      }
+
+      .text-accent {
+        fill: #388BFD;
+      }
+
+      @media (prefers-color-scheme: light) {
+        .text-main {
+          fill: #0F172A;
+        }
+      }
+    </style>
+
+    <clipPath id="type-clip">
+      <rect x="42" y="0" width="0" height="48" class="typed-clip-rect" />
+    </clipPath>
+  </defs>
+
+  <!-- Waving Hand -->
+  <g class="hand">
+    <text x="4" y="33" font-size="26">👋</text>
+  </g>
+
+  <!-- Clipped Animated Text -->
+  <g clip-path="url(#type-clip)">
+    <text x="42" y="33" class="text-base text-main">
+      Hi, I&apos;m <tspan class="text-accent">Deependu Mondal</tspan>
+    </text>
+  </g>
+
+  <!-- Animated Blinking Cursor Bar -->
+  <g class="cursor-bar">
+    <rect x="42" y="12" width="2.5" height="24" fill="#388BFD" rx="1" />
+  </g>
+</svg>
