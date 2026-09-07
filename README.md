@@ -1,150 +1,141 @@
 <div align="center">
 
 <a href="https://github.com/Deependu001">
-  <img src="./assets/header.gif" width="100%" alt="Deependu Mondal · Cybersecurity Engineer" />
+  <img src="./assets/header.gif" width="100%" alt="Deependu Mondal · Kali Linux Terminal" />
 </a>
 
+</div>
+
+# 👋 Hi, I'm Deependu Mondal
+
+Cybersecurity enthusiast focused on **Offensive Security**, **Application Security**, **Security Research**, and **Security Tooling**.
+
+I enjoy understanding how software and infrastructure fail, building tools around those weaknesses, and turning security research into practical engineering.
+
+---
+
+## 🧭 WHAT I DO
+
+* 🔴 **Offensive Security** — Active reconnaissance, attack surface discovery, parameter fuzzing, and controlled exploit validation.
+* 🟣 **Application Security** — Automated OWASP Top 10 auditing, AST parsing, and broken object-level authorization (BOLA) detection.
+* 🔵 **Security Research** — Dissecting system invariants, analyzing client isolation sandboxes, and reproducing vulnerabilities.
+* 🟢 **Security Tooling** — Engineering deterministic security CLIs, heuristic scanning engines, and structured telemetry reporters.
+* 🟠 **Threat Intelligence** — Automated indicator ingestion, behavioral scoring algorithms, and MITRE ATT&CK telemetry correlation.
+
+---
+
+## 🌐 CONNECT
+
 <p align="center">
-  <a href="https://linkedin.com/in/deependu-mondal-105825328/">
+  <a href="https://github.com/Deependu001" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  <a href="https://linkedin.com/in/deependu-mondal-105825328/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="https://tryhackme.com/p/Deependu001">
-    <img src="https://img.shields.io/badge/TryHackMe-Deependu001-red?style=flat-square&logo=tryhackme&logoColor=white" alt="TryHackMe" />
+  <a href="https://tryhackme.com/p/Deependu001" target="_blank">
+    <img src="https://img.shields.io/badge/TryHackMe-A01010?style=flat-square&logo=tryhackme&logoColor=white" alt="TryHackMe" />
   </a>
-  <a href="https://medium.com/@deependumondal001">
-    <img src="https://img.shields.io/badge/Field_Notes-Medium-000000?style=flat-square&logo=medium&logoColor=white" alt="Medium" />
+  <a href="https://medium.com/@deependumondal001" target="_blank">
+    <img src="https://img.shields.io/badge/Medium-12100E?style=flat-square&logo=medium&logoColor=white" alt="Medium" />
   </a>
   <a href="mailto:mondaldeependu@gmail.com">
     <img src="https://img.shields.io/badge/Email-mondaldeependu%40gmail.com-blue?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </p>
 
-</div>
+---
+
+## ⚡ TECHNICAL ARSENAL
+
+### 🛡️ Security
+![OWASP](https://img.shields.io/badge/OWASP-000000?style=flat-square&logo=owasp&logoColor=white)
+![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logo=portswigger&logoColor=white)
+![Nmap](https://img.shields.io/badge/Nmap-004080?style=flat-square&logo=linux&logoColor=white)
+![Metasploit](https://img.shields.io/badge/Metasploit-123456?style=flat-square&logo=metasploit&logoColor=white)
+![API Security](https://img.shields.io/badge/API_Security-388BFD?style=flat-square&logoColor=white)
+![Web Security](https://img.shields.io/badge/Web_Security-2EA043?style=flat-square&logoColor=white)
+![Recon](https://img.shields.io/badge/Reconnaissance-6E7681?style=flat-square&logoColor=white)
+![Vulnerability Research](https://img.shields.io/badge/Vuln_Research-E3B341?style=flat-square&logoColor=black)
+
+### 💻 Development & Tooling
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+
+### 🌐 Networking & Protocols
+![TCP/IP](https://img.shields.io/badge/TCP%2FIP-1F6FEB?style=flat-square&logoColor=white)
+![DNS](https://img.shields.io/badge/DNS-38BDF8?style=flat-square&logoColor=white)
+![HTTP Internals](https://img.shields.io/badge/HTTP%20Internals-0969DA?style=flat-square&logoColor=white)
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
+![tcpdump](https://img.shields.io/badge/tcpdump-24292F?style=flat-square&logo=linux&logoColor=white)
+![Raw Sockets](https://img.shields.io/badge/Raw_Sockets-6366F1?style=flat-square&logoColor=white)
+
+### 🐧 Systems & Runtimes
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Debian](https://img.shields.io/badge/Debian-A81D33?style=flat-square&logo=debian&logoColor=white)
+![Arch Linux](https://img.shields.io/badge/Arch_Linux-1793D1?style=flat-square&logo=arch-linux&logoColor=white)
+![POSIX Shell](https://img.shields.io/badge/POSIX_Shell-2B3137?style=flat-square&logoColor=white)
+![Manifest V3](https://img.shields.io/badge/Manifest_V3-4285F4?style=flat-square&logo=googlechrome&logoColor=white)
+
+### 🧪 Testing & Verification
+![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+![SARIF](https://img.shields.io/badge/SARIF_Reporting-8957E5?style=flat-square&logoColor=white)
+![Threat Modeling](https://img.shields.io/badge/STRIDE_Modeling-D29922?style=flat-square&logoColor=white)
+![Security Automation](https://img.shields.io/badge/Security_Automation-238636?style=flat-square&logoColor=white)
 
 ---
 
-### 01 &nbsp;🧭&nbsp; PROFESSIONAL SUMMARY
+## 🔭 CURRENTLY EXPLORING
 
-I am an engineering undergraduate specializing in Artificial Intelligence (AGEMC, 2024–2028) with a focused concentration on **Offensive Security**, **Application Security (AppSec)**, and **Security Tooling Engineering**. 
-
-My core engineering thesis:
-> *"I build practical security tooling to dissect how software boundaries fail, automate vulnerability identification, and engineer deterministic detections before adversaries exploit them."*
-
-Rather than viewing offensive and defensive disciplines as disconnected silos, my work operates across the complete vulnerability lifecycle:
-
-```text
-Reconnaissance ➔ Attack Surface Discovery ➔ Vulnerability Discovery ➔ Exploitation Modeling ➔ Detection Engineering ➔ Threat Intelligence ➔ Remediation
-```
+* 🔍 **Web & API Security** — Advanced authorization fuzzing, BOLA/IDOR edge patterns, and GraphQL security auditing.
+* ⚔️ **Offensive Security** — Privilege escalation paths, Linux internal misconfigurations, and active network exploitation.
+* 🧪 **Vulnerability Research** — Analyzing client isolation sandboxes, heuristic classification bypasses, and DOM security.
+* 🤖 **Security Automation** — Building autonomous scanning pipelines and verifiable detection harnesses.
+* 🛰️ **Threat Intelligence** — Real-time IOC enrichment pipelines and MITRE ATT&CK behavioral telemetry mapping.
 
 ---
 
-### 02 &nbsp;⚔️&nbsp; CORE SECURITY FOCUS & TECHNICAL PIPELINE
+## 🚀 FEATURED WORK
 
-| Discipline | Engineering Vector | Operational Scope |
-| :--- | :--- | :--- |
-| **Offensive Security** | Attack Surface Discovery & Probing | Active reconnaissance, web/API parameter fuzzing, authentication bypass validation, and controlled exploit verification. |
-| **Application Security** | Vulnerability Auditing & AST Analysis | Automated OWASP Top 10 auditing, schema validation, rate-limit testing, and broken object level authorization (BOLA) detection. |
-| **Security Engineering** | Threat Detection & Client Isolation | Building local heuristic engines, client-side execution sandboxes (Manifest V3), packet inspection harnesses, and structured SARIF/JSON reporting. |
-| **Threat Intelligence** | Indicator Ingestion & Classification | Automated enrichment of IOC feeds, behavioral heuristic scoring, and correlating telemetry against MITRE ATT&CK techniques. |
+* **[ThreatIntel-Engine](https://github.com/Deependu001/threatintel-engine)**  
+  Autonomous threat intelligence and IOC classification engine featuring asynchronous feed ingestion, heuristic scoring, and REST telemetry export.  
+  `Python` · `AsyncIO` · `FastAPI` · `SQLite/PostgreSQL`
 
----
+* **[APISentry](https://github.com/Deependu001/apisentry)**  
+  Automated OWASP API and web vulnerability auditor with OpenAPI/Swagger specification parsing and deterministic BOLA/IDOR probing.  
+  `Python` · `CLI` · `OWASP API Top 10` · `SARIF`
 
-### 03 &nbsp;🚀&nbsp; FEATURED SECURITY SYSTEMS
-
-#### 01. 📡 ThreatIntel-Engine — Autonomous Threat Intelligence & IOC Classification System
-> **Problem:** Security Operations teams face high indicator noise, fragmented feeds (AlienVault, VirusTotal, MISP), and slow contextualization during incident triage.  
-> **Security Objective:** Automate ingestion, deduplication, behavioral scoring, and MITRE ATT&CK mapping for network observables with actionable telemetry output.
-
-* **Architecture:** Modular ingestion worker (`Python` / `AsyncIO`) ➔ Feed normalizer ➔ Heuristic scoring pipeline (Entropy + ASN + WHOIS age) ➔ SQLite/PostgreSQL datastore ➔ Fast REST API (`FastAPI`) with structured JSON export.
-* **Security Capabilities:** Automated scoring of high-risk CIDRs, domain typosquatting detection (Levenshtein & visual homoglyph distance), and contextual IOC enrichment without unthrottled upstream API exhaustion.
-* **Engineering Decisions:** Implemented token-bucket rate limiting across external API connectors; built persistent disk caching for repeated IOC queries to minimize external egress and operational latency.
-* **Limitations:** Contextual enrichment is dependent on external threat feed uptime and API rate allowances; scoring weights require periodic baseline calibration against benign corporate traffic.
-* **Repository:** `https://github.com/Deependu001/threatintel-engine` *(In active development)*
+* **[PhishingGuard](https://github.com/Deependu001/PhishingGuard)**  
+  Client-side runtime phishing detection and input isolation engine operating locally in the browser sandbox without third-party telemetry egress.  
+  `JavaScript` · `Manifest V3` · `Shadow DOM` · `Heuristic Engine`
 
 ---
 
-#### 02. ⚔️ APISentry — Automated OWASP API & Web Vulnerability Auditor
-> **Problem:** Microservice-heavy architectures frequently expose undocumented endpoints, broken object-level authorization (BOLA/IDOR), and stateful logic flaws that static code analyzers miss.  
-> **Security Objective:** Provide a deterministic, reproducible CLI engine that parses OpenAPI/Swagger specifications or crawls HTTP endpoints to probe for high-severity authorization and injection vulnerabilities.
+## 🔬 RESEARCH & WRITEUPS
 
-* **Architecture:** Target Parser (OpenAPI/Swagger v2/v3 + HTML Crawler) ➔ Request Mutator & State Machine ➔ Security Probe Engine (SQLi, SSRF, IDOR, Header Misconfigurations) ➔ Anomaly Classifier (HTTP status, timing differentials, response payload length) ➔ SARIF/Markdown Reporter.
-* **Security Capabilities:** Deterministic validation of BOLA by testing cross-tenant object identifiers; active parameter pollution and boundary fuzzing; verification of missing authentication tokens on private routes.
-* **Engineering Decisions:** Designed a stateful token-replay engine that maintains dual authenticated sessions (Tenant A vs. Tenant B) to mathematically demonstrate authorization boundary violations with zero human guesswork.
-* **Limitations:** Does not execute complex JavaScript SPAs natively (requires headless Chromium integration for dynamic client-rendered routes); destructive payloads are strictly excluded by default to prevent database corruption.
-* **Repository:** `https://github.com/Deependu001/apisentry` *(In active development)*
+* 🎯 **[TryHackMe Labs](https://tryhackme.com/p/Deependu001)** — Hands-on exploitation labs focusing on Linux privilege escalation, network auditing, and misconfiguration analysis.
+* 📝 **[DOM Sandbox Security & Manifest V3](https://medium.com/@deependumondal001)** — Research writeup dissecting how deceptive overlays manipulate Shadow DOM isolation boundaries.
+* 📝 **[Adversarial Invariants in Heuristic Filters](https://medium.com/@deependumondal001)** — Exploration of high-entropy character permutations inducing classification bypasses.
 
 ---
 
-#### 03. 🛡️ PhishingGuard — Client-Side Runtime Isolation & Payload Interception
-> **Problem:** Cloud-reliant antiphishing tools leak full user browsing history to third-party servers, introducing severe privacy and compliance vulnerabilities while failing against newly registered zero-day domains.  
-> **Security Objective:** Intercept and neutralize deceptive DOM overlays, cloaked input forms, and spoofed punycode domains directly inside browser execution sandboxes under Manifest V3 without external telemetry egress.
+## 📊 GITHUB ACTIVITY
 
-* **Architecture:** Background Service Worker (Declarative Net Request) ➔ MutationObserver Content Script ➔ Shadow DOM Traversal Engine ➔ Heuristic Scorer (Levenshtein distance, brand entropy, credential input visibility) ➔ Client-side Explanatory Modal.
-* **Security Capabilities:** Deep nested Shadow DOM traversal; real-time Punycode/homoglyph resolution; offline heuristic evaluation with **zero outbound user metadata transmission**.
-* **Verification & Test Harness:** Backed by **104 automated unit and synthetic attack test cases** verifying boundary defense and zero false-positive regressions on top-ranking domains.
-* **Repository:** `https://github.com/Deependu001/PhishingGuard`
-
----
-
-### 04 &nbsp;🧰&nbsp; TECHNICAL CAPABILITIES & MATRIX
-
-```text
-┌─── CAPABILITY MATRIX ─────────────────────────────────────────────────────────────────────┐
-│ APPLICATION SECURITY    OWASP Top 10 · OWASP API Top 10 · BOLA/IDOR · CSRF · Input Fuzzing│
-│ OFFENSIVE SECURITY      Reconnaissance · Nmap · Burp Suite · Metasploit · Exploit Modeling│
-│ PROTOCOLS & NETWORK     TCP/IP · Wireshark · tcpdump · Raw Sockets · DNS/HTTP Internals   │
-│ SYSTEMS & RUNTIMES      Linux Internals (Debian/Arch) · POSIX Shell · C/C++ · Manifest V3 │
-│ BACKEND & TOOLING       Python · FastAPI · AsyncIO · SQLite · PostgreSQL · Docker · Git   │
-│ VERIFICATION & TESTING  pytest · Automated Synthetic Harnesses · SARIF · Structured JSON  │
-└───────────────────────────────────────────────────────────────────────────────────────────┘
-```
-
----
-
-### 05 &nbsp;🧠&nbsp; SYSTEMATIC SECURITY METHODOLOGY
-
-Every security tool, audit, and laboratory experiment I conduct adheres to a repeatable engineering methodology:
-
-1. **Threat Modeling & Surface Mapping:** Identify trust boundaries, untrusted input ingress vectors, assets, and attacker motivation using STRIDE and attack tree decomposition.
-2. **Deterministic Validation:** Vulnerabilities must be reliably reproducible with minimal proof-of-concept scripts rather than theoretical speculation.
-3. **Detection Engineering:** For every attack vector validated, write corresponding detection criteria (Suricata/Snort signatures, YARA rules, or application-level log markers).
-4. **Actionable Remediation Guidance:** Every reported finding must contain a concrete architectural fix (e.g., parameter binding, server-side session authorization, secure header baselines) with documented trade-offs.
-
----
-
-### 06 &nbsp;🔬&nbsp; LAB RESEARCH & TECHNICAL WRITEUPS
-
-I document hands-on security evaluations, vulnerability breakdowns, and lab challenges to bridge the gap between offensive exploitation and defensive engineering:
-
-| Target / Subject | Research Focus | Primary Finding & Engineering Takeaway | Link |
-| :--- | :--- | :--- | :--- |
-| **TryHackMe Labs** | PrivEsc & Network Exploitation | Systematic exploitation of Linux misconfigurations, sudo rights, and SUID binaries; wrote automation scripts to flag vulnerable cron jobs. | [Lab Profile ↗](https://tryhackme.com/p/Deependu001) |
-| **DOM Sandbox Security** | Manifest V3 & Client Isolation | Analyzing how deceptive overlays exploit Shadow DOM isolation to evade traditional regex-based DOM scanners. | [Read on Medium ↗](https://medium.com/@deependumondal001) |
-| **Adversarial Invariants** | Probabilistic AI Vulnerability Surfaces | Dissecting how high-entropy character permutations induce classification bypasses in heuristic and ML security filters. | [Read on Medium ↗](https://medium.com/@deependumondal001) |
-
----
-
-### 07 &nbsp;⚙️&nbsp; ENGINEERING STANDARDS
-
-To ensure tools are production-ready rather than disposable academic scripts, all repository releases are expected to meet:
-
-* **Reproducibility:** Single-command setup via Docker or virtual environment harnesses (`requirements.txt` / `Dockerfile`).
-* **Safe by Default:** Dry-run modes, strict scope restrictions (CIDR/domain whitelists), and zero out-of-bounds scanning.
-* **Structured Logging & Egress:** Standardized output via JSON / SARIF for effortless pipeline integration with SIEMs or CI/CD systems.
-* **Rigorous Documentation:** Comprehensive README architecture covering threat models, architectural flow, setup, limitations, and responsible use policies.
-
----
-
-### 08 &nbsp;📬&nbsp; PROFESSIONAL CONTACT & VERIFICATION
-
-* **LinkedIn:** [linkedin.com/in/deependu-mondal-105825328](https://linkedin.com/in/deependu-mondal-105825328/)
-* **Email:** [mondaldeependu@gmail.com](mailto:mondaldeependu@gmail.com)
-* **TryHackMe Labs:** [tryhackme.com/p/Deependu001](https://tryhackme.com/p/Deependu001)
-* **Technical Dispatches:** [medium.com/@deependumondal001](https://medium.com/@deependumondal001)
-* **Location:** India
-
-<br />
+<p align="center">
+  <a href="https://github.com/Deependu001">
+    <img src="https://streak-stats.demolab.com/?user=Deependu001&theme=dark&background=0D1117&ring=388BFD&fire=3FB950&currStreakNum=F0F6FC&sideNums=94A3B8&sideLabels=94A3B8&dates=8B949E&hide_border=true" alt="GitHub Streak" />
+  </a>
+</p>
 
 <div align="center">
-  <sub><code>ENGINEERING DOSSIER · DEEPENDU MONDAL · SECURITY OPERATIONS &amp; TOOLING ARCHITECTURE</code></sub>
+  <br />
+  <em>Always learning. Always testing. Always building.</em>
+  <br /><br />
+  <sub><code>DEEPENDU MONDAL · OFFENSIVE SECURITY &amp; SECURITY TOOLING ARCHITECTURE · INDIA</code></sub>
 </div>
