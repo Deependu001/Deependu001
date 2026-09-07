@@ -96,16 +96,6 @@ I enjoy understanding how software and infrastructure fail, building tools aroun
 
 ---
 
-## 🔭 CURRENTLY EXPLORING
-
-* 🔍 **Web & API Security** — Advanced authorization fuzzing, BOLA/IDOR edge patterns, and GraphQL security auditing.
-* ⚔️ **Offensive Security** — Privilege escalation paths, Linux internal misconfigurations, and active network exploitation.
-* 🧪 **Vulnerability Research** — Analyzing client isolation sandboxes, heuristic classification bypasses, and DOM security.
-* 🤖 **Security Automation** — Building autonomous scanning pipelines and verifiable detection harnesses.
-* 🛰️ **Threat Intelligence** — Real-time IOC enrichment pipelines and MITRE ATT&CK behavioral telemetry mapping.
-
----
-
 ## 🚀 FEATURED SECURITY SYSTEMS
 
 * **[ThreatIntel-Engine](https://github.com/Deependu001/threatintel-engine)**  
@@ -122,70 +112,56 @@ I enjoy understanding how software and infrastructure fail, building tools aroun
 
 ---
 
-## 🖥️ CURRENT SECURITY OPERATIONS
+## 🧰 SECURITY TOOLBOX
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <b>🌐 WEB / API SECURITY</b><br />
-      <sub>Authorization models · BOLA / IDOR edge patterns · API attack surface auditing</sub>
-    </td>
-    <td width="50%" valign="top">
-      <b>⚔️ OFFENSIVE SECURITY</b><br />
-      <sub>Reconnaissance workflows · Parameter fuzzing · Controlled exploit validation</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <b>🔬 SECURITY RESEARCH</b><br />
-      <sub>Browser client isolation · Shadow DOM boundaries · Classification bypasses</sub>
-    </td>
-    <td width="50%" valign="top">
-      <b>🛠️ SECURITY TOOLING</b><br />
-      <sub>Deterministic test harnesses · Python security CLIs · Structured SARIF reporting</sub>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" valign="top">
-      <b>🛰️ THREAT INTELLIGENCE</b><br />
-      <sub>Asynchronous IOC ingestion feeds · Behavioral scoring algorithms · ATT&CK telemetry correlation</sub>
-    </td>
-  </tr>
-</table>
+Tools, standards, and references I use while building and studying security systems.
 
----
+<details>
+<summary>🧰 <b>Explore my security toolbox</b></summary>
+<br />
 
-## 🔬 RESEARCH LOG
+<p><b>⚔️ Offensive Security</b></p>
+<p>
+  <a href="https://nmap.org" target="_blank"><img src="https://img.shields.io/badge/Nmap-004080?style=flat-square&logo=linux&logoColor=white" alt="Nmap" /></a>
+  <a href="https://portswigger.net/burp" target="_blank"><img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logo=portswigger&logoColor=white" alt="Burp Suite" /></a>
+  <a href="https://www.metasploit.com" target="_blank"><img src="https://img.shields.io/badge/Metasploit-123456?style=flat-square&logo=metasploit&logoColor=white" alt="Metasploit" /></a>
+  <a href="https://owasp.org/www-project-web-security-testing-guide/" target="_blank"><img src="https://img.shields.io/badge/OWASP_WSTG-000000?style=flat-square&logo=owasp&logoColor=white" alt="OWASP WSTG" /></a>
+</p>
 
-* `ACTIVE`
-  * **API Authorization Testing** → [APISentry](https://github.com/Deependu001/apisentry) · Automated BOLA / IDOR auditing & OpenAPI parsing
-  * **Client-Side Sandbox Security** → [PhishingGuard](https://github.com/Deependu001/PhishingGuard) · DOM isolation boundaries & runtime heuristics
-* `BUILDING`
-  * **Threat Intelligence Automation** → [ThreatIntel-Engine](https://github.com/Deependu001/threatintel-engine) · Real-time IOC ingestion pipeline & scoring
-* `LAB`
-  * **Linux Privilege Escalation** → [TryHackMe Labs](https://tryhackme.com/p/Deependu001) · Sudo rights, misconfiguration auditing & network labs
-* `RESEARCH`
-  * **Heuristic Classification Invariants** → [Technical Dispatches](https://medium.com/@deependumondal001) · Character entropy permutations & filter bypasses
+<p><b>🛡️ Application Security</b></p>
+<p>
+  <a href="https://owasp.org/www-project-top-ten/" target="_blank"><img src="https://img.shields.io/badge/OWASP_Top_10-000000?style=flat-square&logo=owasp&logoColor=white" alt="OWASP Top 10" /></a>
+  <a href="https://owasp.org/www-project-api-security/" target="_blank"><img src="https://img.shields.io/badge/OWASP_API_Top_10-000000?style=flat-square&logo=owasp&logoColor=white" alt="OWASP API Top 10" /></a>
+  <a href="https://portswigger.net/web-security" target="_blank"><img src="https://img.shields.io/badge/PortSwigger_Academy-FF6633?style=flat-square&logo=portswigger&logoColor=white" alt="PortSwigger Academy" /></a>
+  <a href="https://cheatsheetseries.owasp.org/" target="_blank"><img src="https://img.shields.io/badge/OWASP_Cheat_Sheets-000000?style=flat-square&logo=owasp&logoColor=white" alt="OWASP Cheat Sheets" /></a>
+</p>
 
-```text
-deependu@kali:~$ status
+<p><b>🌐 Networking</b></p>
+<p>
+  <a href="https://www.wireshark.org" target="_blank"><img src="https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white" alt="Wireshark" /></a>
+  <a href="https://www.tcpdump.org" target="_blank"><img src="https://img.shields.io/badge/tcpdump-24292F?style=flat-square&logo=linux&logoColor=white" alt="tcpdump" /></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP" target="_blank"><img src="https://img.shields.io/badge/MDN_HTTP-111111?style=flat-square&logo=mdnwebdocs&logoColor=white" alt="MDN HTTP" /></a>
+  <a href="https://www.rfc-editor.org/" target="_blank"><img src="https://img.shields.io/badge/IETF_RFCs-000000?style=flat-square&logoColor=white" alt="IETF RFCs" /></a>
+</p>
 
-[+] learning
-[+] researching
-[+] building
-[+] breaking
-[+] securing
+<p><b>🐧 Systems & Invariants</b></p>
+<p>
+  <a href="https://docs.kernel.org/" target="_blank"><img src="https://img.shields.io/badge/Linux_Kernel_Docs-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux Kernel Docs" /></a>
+  <a href="https://gtfobins.github.io/" target="_blank"><img src="https://img.shields.io/badge/GTFOBins-24292F?style=flat-square&logo=github&logoColor=white" alt="GTFOBins" /></a>
+  <a href="https://www.exploit-db.com/" target="_blank"><img src="https://img.shields.io/badge/Exploit--DB-E82535?style=flat-square&logoColor=white" alt="Exploit-DB" /></a>
+  <a href="https://attack.mitre.org/" target="_blank"><img src="https://img.shields.io/badge/MITRE_ATT%26CK-C0392B?style=flat-square&logoColor=white" alt="MITRE ATT&CK" /></a>
+</p>
 
-deependu@kali:~$ _
-```
+<p><b>🧪 Security Engineering</b></p>
+<p>
+  <a href="https://fastapi.tiangolo.com/" target="_blank"><img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" /></a>
+  <a href="https://www.docker.com/" target="_blank"><img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" /></a>
+  <a href="https://docs.pytest.org/" target="_blank"><img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" alt="pytest" /></a>
+  <a href="https://sarifweb.azurewebsites.net/" target="_blank"><img src="https://img.shields.io/badge/SARIF_Standard-8957E5?style=flat-square&logoColor=white" alt="SARIF Standard" /></a>
+  <a href="https://docs.github.com/en/actions" target="_blank"><img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" /></a>
+</p>
 
----
-
-## 📚 LAB RESEARCH & TECHNICAL WRITEUPS
-
-* 🎯 **[TryHackMe Labs](https://tryhackme.com/p/Deependu001)** — Hands-on exploitation labs focusing on Linux privilege escalation, network auditing, and misconfiguration analysis.
-* 📝 **[DOM Sandbox Security & Manifest V3](https://medium.com/@deependumondal001)** — Research writeup dissecting how deceptive overlays manipulate Shadow DOM isolation boundaries.
-* 📝 **[Adversarial Invariants in Heuristic Filters](https://medium.com/@deependumondal001)** — Exploration of high-entropy character permutations inducing classification bypasses.
+</details>
 
 ---
 
@@ -195,3 +171,4 @@ deependu@kali:~$ _
   <br /><br />
   <sub><code>DEEPENDU MONDAL · OFFENSIVE SECURITY &amp; SECURITY TOOLING ARCHITECTURE · INDIA</code></sub>
 </div>
+
