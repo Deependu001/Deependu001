@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://github.com/Deependu001">
-  <img src="./assets/header.gif" width="100%" alt="Deependu Mondal // Cybersecurity Engineer" />
+  <img src="./assets/header.gif" width="100%" alt="Deependu Mondal · Cybersecurity Engineer" />
 </a>
 
 <p align="center">
@@ -23,7 +23,7 @@
 
 ---
 
-### 01 // PROFESSIONAL SUMMARY
+### 01 &nbsp;🧭&nbsp; PROFESSIONAL SUMMARY
 
 I am an engineering undergraduate specializing in Artificial Intelligence (AGEMC, 2024–2028) with a focused concentration on **Offensive Security**, **Application Security (AppSec)**, and **Security Tooling Engineering**. 
 
@@ -38,7 +38,7 @@ Reconnaissance ➔ Attack Surface Discovery ➔ Vulnerability Discovery ➔ Expl
 
 ---
 
-### 02 // CORE SECURITY FOCUS & TECHNICAL PIPELINE
+### 02 &nbsp;⚔️&nbsp; CORE SECURITY FOCUS & TECHNICAL PIPELINE
 
 | Discipline | Engineering Vector | Operational Scope |
 | :--- | :--- | :--- |
@@ -49,9 +49,9 @@ Reconnaissance ➔ Attack Surface Discovery ➔ Vulnerability Discovery ➔ Expl
 
 ---
 
-### 03 // FEATURED SECURITY SYSTEMS
+### 03 &nbsp;🚀&nbsp; FEATURED SECURITY SYSTEMS
 
-#### 01. `ThreatIntel-Engine` // Autonomous Threat Intelligence & IOC Classification System
+#### 01. 📡 ThreatIntel-Engine — Autonomous Threat Intelligence & IOC Classification System
 > **Problem:** Security Operations teams face high indicator noise, fragmented feeds (AlienVault, VirusTotal, MISP), and slow contextualization during incident triage.  
 > **Security Objective:** Automate ingestion, deduplication, behavioral scoring, and MITRE ATT&CK mapping for network observables with actionable telemetry output.
 
@@ -63,7 +63,7 @@ Reconnaissance ➔ Attack Surface Discovery ➔ Vulnerability Discovery ➔ Expl
 
 ---
 
-#### 02. `APISentry` // Automated OWASP API & Web Vulnerability Auditor
+#### 02. ⚔️ APISentry — Automated OWASP API & Web Vulnerability Auditor
 > **Problem:** Microservice-heavy architectures frequently expose undocumented endpoints, broken object-level authorization (BOLA/IDOR), and stateful logic flaws that static code analyzers miss.  
 > **Security Objective:** Provide a deterministic, reproducible CLI engine that parses OpenAPI/Swagger specifications or crawls HTTP endpoints to probe for high-severity authorization and injection vulnerabilities.
 
@@ -75,7 +75,7 @@ Reconnaissance ➔ Attack Surface Discovery ➔ Vulnerability Discovery ➔ Expl
 
 ---
 
-#### 03. `PhishingGuard` // Client-Side Runtime Isolation & Payload Interception
+#### 03. 🛡️ PhishingGuard — Client-Side Runtime Isolation & Payload Interception
 > **Problem:** Cloud-reliant antiphishing tools leak full user browsing history to third-party servers, introducing severe privacy and compliance vulnerabilities while failing against newly registered zero-day domains.  
 > **Security Objective:** Intercept and neutralize deceptive DOM overlays, cloaked input forms, and spoofed punycode domains directly inside browser execution sandboxes under Manifest V3 without external telemetry egress.
 
@@ -86,7 +86,7 @@ Reconnaissance ➔ Attack Surface Discovery ➔ Vulnerability Discovery ➔ Expl
 
 ---
 
-### 04 // TECHNICAL SKILLS & VERIFIABLE CAPABILITIES
+### 04 &nbsp;🧰&nbsp; TECHNICAL CAPABILITIES & MATRIX
 
 ```text
 ┌─── CAPABILITY MATRIX ─────────────────────────────────────────────────────────────────────┐
@@ -101,7 +101,7 @@ Reconnaissance ➔ Attack Surface Discovery ➔ Vulnerability Discovery ➔ Expl
 
 ---
 
-### 05 // SYSTEMATIC SECURITY METHODOLOGY
+### 05 &nbsp;🧠&nbsp; SYSTEMATIC SECURITY METHODOLOGY
 
 Every security tool, audit, and laboratory experiment I conduct adheres to a repeatable engineering methodology:
 
@@ -112,7 +112,7 @@ Every security tool, audit, and laboratory experiment I conduct adheres to a rep
 
 ---
 
-### 06 // LAB RESEARCH & TECHNICAL WRITEUPS
+### 06 &nbsp;🔬&nbsp; LAB RESEARCH & TECHNICAL WRITEUPS
 
 I document hands-on security evaluations, vulnerability breakdowns, and lab challenges to bridge the gap between offensive exploitation and defensive engineering:
 
@@ -124,7 +124,7 @@ I document hands-on security evaluations, vulnerability breakdowns, and lab chal
 
 ---
 
-### 07 // ENGINEERING STANDARDS
+### 07 &nbsp;⚙️&nbsp; ENGINEERING STANDARDS
 
 To ensure tools are production-ready rather than disposable academic scripts, all repository releases are expected to meet:
 
@@ -135,7 +135,7 @@ To ensure tools are production-ready rather than disposable academic scripts, al
 
 ---
 
-### 08 // PROFESSIONAL CONTACT & VERIFICATION
+### 08 &nbsp;📬&nbsp; PROFESSIONAL CONTACT & VERIFICATION
 
 * **LinkedIn:** [linkedin.com/in/deependu-mondal-105825328](https://linkedin.com/in/deependu-mondal-105825328/)
 * **Email:** [mondaldeependu@gmail.com](mailto:mondaldeependu@gmail.com)
@@ -146,5 +146,5 @@ To ensure tools are production-ready rather than disposable academic scripts, al
 <br />
 
 <div align="center">
-  <sub><code>ENGINEERING DOSSIER // DEEPENDU MONDAL // SECURITY OPERATIONS &amp; TOOLING ARCHITECTURE</code></sub>
+  <sub><code>ENGINEERING DOSSIER · DEEPENDU MONDAL · SECURITY OPERATIONS &amp; TOOLING ARCHITECTURE</code></sub>
 </div>
