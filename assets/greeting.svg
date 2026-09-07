@@ -1,15 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 42" width="350" height="42" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 52" width="460" height="52" fill="none">
   <defs>
     <style>
+      @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&amp;family=Nunito:wght@800&amp;family=Quicksand:wght@700&amp;display=swap');
+
+      @keyframes waveHand {
+        0%, 100% { transform: rotate(0deg); }
+        15%, 55% { transform: rotate(18deg); }
+        35%, 75% { transform: rotate(-10deg); }
+      }
+
       @keyframes typeReveal {
         0%, 10% { width: 0px; }
-        45%, 90% { width: 335px; }
+        45%, 90% { width: 385px; }
         98%, 100% { width: 0px; }
       }
 
       @keyframes cursorWalk {
         0%, 10% { transform: translateX(0px); }
-        45%, 90% { transform: translateX(330px); }
+        45%, 90% { transform: translateX(380px); }
         98%, 100% { transform: translateX(0px); }
       }
 
@@ -18,11 +26,22 @@
         50%, 100% { opacity: 0; }
       }
 
-      .text-base {
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', 'Roboto', 'Helvetica Neue', sans-serif;
-        font-size: 25px;
-        font-weight: 700;
+      .hand-container {
+        display: inline-block;
+        transform-origin: 22px 38px;
+        animation: waveHand 2.2s ease-in-out infinite;
+      }
+
+      .rounded-yellow-text {
+        font-family: 'Comfortaa', 'Nunito', 'Quicksand', 'Arial Rounded MT Bold', ui-rounded, 'Segoe UI Rounded', system-ui, -apple-system, sans-serif;
+        font-size: 30px;
+        font-weight: 800;
         letter-spacing: -0.2px;
+        fill: #FACC15;
+        stroke: #FACC15;
+        stroke-width: 0.8px;
+        stroke-linejoin: round;
+        paint-order: stroke fill;
       }
 
       .typed-clip-rect {
@@ -32,36 +51,25 @@
       .cursor-bar {
         animation: cursorWalk 7.5s steps(24, end) infinite, blinkCursor 0.75s infinite;
       }
-
-      .text-main {
-        fill: #F0F6FC;
-      }
-
-      .text-accent {
-        fill: #3FB950;
-      }
-
-      @media (prefers-color-scheme: light) {
-        .text-main {
-          fill: #0F172A;
-        }
-      }
     </style>
 
     <clipPath id="type-clip">
-      <rect x="0" y="0" width="0" height="42" class="typed-clip-rect" />
+      <rect x="50" y="0" width="0" height="52" class="typed-clip-rect" />
     </clipPath>
   </defs>
 
-  <!-- Clipped Animated Text -->
-  <g clip-path="url(#type-clip)">
-    <text x="0" y="30" class="text-base text-main">
-      Hi, I&apos;m <tspan class="text-accent">Deependu Mondal</tspan>
-    </text>
+  <!-- Animated Waving Hand Emoji -->
+  <g class="hand-container">
+    <text x="6" y="38" font-size="32" font-family="'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif">👋</text>
   </g>
 
-  <!-- Animated Blinking Cursor Bar (Terminal Green) -->
+  <!-- Clipped Animated Rounded Bold Yellow Text -->
+  <g clip-path="url(#type-clip)">
+    <text x="50" y="38" class="rounded-yellow-text">Hi I am Deependu Mondal</text>
+  </g>
+
+  <!-- Animated Blinking Yellow Cursor Bar -->
   <g class="cursor-bar">
-    <rect x="0" y="10" width="2.5" height="23" fill="#3FB950" rx="1" />
+    <rect x="50" y="11" width="3.5" height="28" fill="#FACC15" rx="1.5" />
   </g>
 </svg>

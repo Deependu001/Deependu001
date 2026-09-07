@@ -6,7 +6,9 @@
 
 </div>
 
-# 👋 <img src="./assets/greeting.svg" alt="Hi, I'm Deependu Mondal" height="32" align="center" />
+<h1 align="left">
+  <img src="./assets/greeting.svg" alt="Hi I am Deependu Mondal" height="44" />
+</h1>
 
 Cybersecurity enthusiast focused on **Offensive Security**, **Application Security**, **Security Research**, and **Security Tooling**.
 
