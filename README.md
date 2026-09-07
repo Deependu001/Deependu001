@@ -6,9 +6,7 @@
 
 </div>
 
-<h1 align="left">
-  <img src="./assets/greeting.svg" alt="Hi, I'm Deependu Mondal" height="42" />
-</h1>
+# 👋 <img src="./assets/greeting.svg" alt="Hi, I'm Deependu Mondal" height="32" align="center" />
 
 Cybersecurity enthusiast focused on **Offensive Security**, **Application Security**, **Security Research**, and **Security Tooling**.
 
@@ -34,6 +32,9 @@ I enjoy understanding how software and infrastructure fail, building tools aroun
   </a>
   <a href="https://linkedin.com/in/deependu-mondal-105825328/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://discord.com/users/traced_200" target="_blank">
+    <img src="https://img.shields.io/badge/Discord-traced__200-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord" />
   </a>
   <a href="https://tryhackme.com/p/Deependu001" target="_blank">
     <img src="https://img.shields.io/badge/TryHackMe-A01010?style=flat-square&logo=tryhackme&logoColor=white" alt="TryHackMe" />
@@ -115,7 +116,7 @@ I enjoy understanding how software and infrastructure fail, building tools aroun
 
 <p align="center">
   <a href="https://github.com/Deependu001">
-    <img src="https://ghchart.rshah.org/388bfd/Deependu001" alt="Deependu's GitHub Contribution Chart" width="100%" />
+    <img src="https://ghchart.rshah.org/3fb950/Deependu001" alt="Deependu's GitHub Contribution Chart" width="100%" />
   </a>
 </p>
 
