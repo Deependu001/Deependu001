@@ -98,14 +98,6 @@ I enjoy understanding how software and infrastructure fail, building tools aroun
 
 ## 🚀 FEATURED SECURITY SYSTEMS
 
-* **[ThreatIntel-Engine](https://github.com/Deependu001/threatintel-engine)**  
-  Autonomous threat intelligence and IOC classification engine featuring asynchronous feed ingestion, heuristic scoring, and REST telemetry export.  
-  `Python` · `AsyncIO` · `FastAPI` · `SQLite/PostgreSQL`
-
-* **[APISentry](https://github.com/Deependu001/apisentry)**  
-  Automated OWASP API and web vulnerability auditor with OpenAPI/Swagger specification parsing and deterministic BOLA/IDOR probing.  
-  `Python` · `CLI` · `OWASP API Top 10` · `SARIF`
-
 * **[PhishingGuard](https://github.com/Deependu001/PhishingGuard)**  
   Client-side runtime phishing detection and input isolation engine operating locally in the browser sandbox without third-party telemetry egress.  
   `JavaScript` · `Manifest V3` · `Shadow DOM` · `Heuristic Engine`
