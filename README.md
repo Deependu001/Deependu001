@@ -141,7 +141,7 @@ To ensure tools are production-ready rather than disposable academic scripts, al
 * **Email:** [mondaldeependu@gmail.com](mailto:mondaldeependu@gmail.com)
 * **TryHackMe Labs:** [tryhackme.com/p/Deependu001](https://tryhackme.com/p/Deependu001)
 * **Technical Dispatches:** [medium.com/@deependumondal001](https://medium.com/@deependumondal001)
-* **Location:** Kolkata, India (IST / UTC+5:30)
+* **Location:** India
 
 <br />
 
