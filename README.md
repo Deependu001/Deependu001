@@ -106,7 +106,15 @@ I enjoy understanding how software and infrastructure fail, building tools aroun
 
 ---
 
-## 🚀 FEATURED WORK
+## 🚀 FEATURED SECURITY SYSTEMS
+
+* **[ThreatIntel-Engine](https://github.com/Deependu001/threatintel-engine)**  
+  Autonomous threat intelligence and IOC classification engine featuring asynchronous feed ingestion, heuristic scoring, and REST telemetry export.  
+  `Python` · `AsyncIO` · `FastAPI` · `SQLite/PostgreSQL`
+
+* **[APISentry](https://github.com/Deependu001/apisentry)**  
+  Automated OWASP API and web vulnerability auditor with OpenAPI/Swagger specification parsing and deterministic BOLA/IDOR probing.  
+  `Python` · `CLI` · `OWASP API Top 10` · `SARIF`
 
 * **[PhishingGuard](https://github.com/Deependu001/PhishingGuard)**  
   Client-side runtime phishing detection and input isolation engine operating locally in the browser sandbox without third-party telemetry egress.  
@@ -114,23 +122,72 @@ I enjoy understanding how software and infrastructure fail, building tools aroun
 
 ---
 
-## 📈 GITHUB CONTRIBUTIONS
+## 🖥️ CURRENT SECURITY OPERATIONS
 
-<p align="center">
-  <a href="https://github.com/Deependu001">
-    <img src="https://ghchart.rshah.org/3fb950/Deependu001" alt="Deependu's GitHub Contribution Chart" width="100%" />
-  </a>
-</p>
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <b>🌐 WEB / API SECURITY</b><br />
+      <sub>Authorization models · BOLA / IDOR edge patterns · API attack surface auditing</sub>
+    </td>
+    <td width="50%" valign="top">
+      <b>⚔️ OFFENSIVE SECURITY</b><br />
+      <sub>Reconnaissance workflows · Parameter fuzzing · Controlled exploit validation</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <b>🔬 SECURITY RESEARCH</b><br />
+      <sub>Browser client isolation · Shadow DOM boundaries · Classification bypasses</sub>
+    </td>
+    <td width="50%" valign="top">
+      <b>🛠️ SECURITY TOOLING</b><br />
+      <sub>Deterministic test harnesses · Python security CLIs · Structured SARIF reporting</sub>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <b>🛰️ THREAT INTELLIGENCE</b><br />
+      <sub>Asynchronous IOC ingestion feeds · Behavioral scoring algorithms · ATT&CK telemetry correlation</sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## 📊 GITHUB ACTIVITY
+## 🔬 RESEARCH LOG
 
-<p align="center">
-  <a href="https://github.com/Deependu001">
-    <img src="https://streak-stats.demolab.com/?user=Deependu001&theme=dark&background=0D1117&ring=388BFD&fire=3FB950&currStreakNum=F0F6FC&sideNums=94A3B8&sideLabels=94A3B8&dates=8B949E&hide_border=true" alt="GitHub Streak" />
-  </a>
-</p>
+* `ACTIVE`
+  * **API Authorization Testing** → [APISentry](https://github.com/Deependu001/apisentry) · Automated BOLA / IDOR auditing & OpenAPI parsing
+  * **Client-Side Sandbox Security** → [PhishingGuard](https://github.com/Deependu001/PhishingGuard) · DOM isolation boundaries & runtime heuristics
+* `BUILDING`
+  * **Threat Intelligence Automation** → [ThreatIntel-Engine](https://github.com/Deependu001/threatintel-engine) · Real-time IOC ingestion pipeline & scoring
+* `LAB`
+  * **Linux Privilege Escalation** → [TryHackMe Labs](https://tryhackme.com/p/Deependu001) · Sudo rights, misconfiguration auditing & network labs
+* `RESEARCH`
+  * **Heuristic Classification Invariants** → [Technical Dispatches](https://medium.com/@deependumondal001) · Character entropy permutations & filter bypasses
+
+```text
+deependu@kali:~$ status
+
+[+] learning
+[+] researching
+[+] building
+[+] breaking
+[+] securing
+
+deependu@kali:~$ _
+```
+
+---
+
+## 📚 LAB RESEARCH & TECHNICAL WRITEUPS
+
+* 🎯 **[TryHackMe Labs](https://tryhackme.com/p/Deependu001)** — Hands-on exploitation labs focusing on Linux privilege escalation, network auditing, and misconfiguration analysis.
+* 📝 **[DOM Sandbox Security & Manifest V3](https://medium.com/@deependumondal001)** — Research writeup dissecting how deceptive overlays manipulate Shadow DOM isolation boundaries.
+* 📝 **[Adversarial Invariants in Heuristic Filters](https://medium.com/@deependumondal001)** — Exploration of high-entropy character permutations inducing classification bypasses.
+
+---
 
 <div align="center">
   <br />
